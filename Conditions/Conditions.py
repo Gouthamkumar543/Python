@@ -70,3 +70,37 @@
 # elif(id !=10 and Name != "goutham"):
 #     print("Entry Successfull", Name)
 
+
+
+
+
+# Arthematic operations
+# n1 = 7
+# n2 = 10
+
+# c = n1//n2  #remove the float values 
+# print(c)
+
+# n1 &= n2
+# print(n1)
+
+# n1 |= n2  #adds the binary numbers and gives the result biary number's decimal    
+# print(n1)
+
+# n1 ^= n2
+# print(n1)
+
+
+
+
+
+
+
+# control statments 
+# jumping statments - pass
+
+
+# if (True):
+#     pass  #runs the code to add the code later 
+# else:
+#     print("Hello world")
