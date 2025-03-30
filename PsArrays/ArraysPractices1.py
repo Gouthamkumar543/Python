@@ -78,3 +78,16 @@
 # Duplicate(num)
 
 
+# def uni(x):
+#     new_arr = []
+#     for i in x:
+#         count = 0
+#         for j in x:
+#             if i==j:
+#                 count += 1
+#         if count == 1:
+#             new_arr += [i]
+#     print(new_arr)
+
+# num = [1,1,1,1,15,1,2,72,2,3,37,3,47,43,4,53,55,5] 
+# uni(num)

@@ -57,16 +57,75 @@
 
 
 
-# Check if it contains only digits
 
-def Check_Only_Digits(x):
-    Digits = "1234567890"
-    for i in x:
-        if i not in Digits:
-            return print(False)
-    return print(True)
+# Check if String Contains Only Digits -5
+# def is_digit(x):
+#     for i in x:
+#         if not("0"<=i<="9"):
+#             return False
+#     return True
 
-string = "0036057607608576057068375"
-Check_Only_Digits(string)
-    
-        
+# print(is_digit("12345"))
+
+
+
+
+
+
+# Check if it contains only digits -5
+
+# def Check_Only_Digits(x):
+#     Digits = "1234567890"
+#     for i in x:
+#         if i not in Digits:
+#             return print(False)
+#     return print(True)
+
+# string = "00368375"
+# Check_Only_Digits(string)
+
+
+
+
+#Convert String to Title Case -6
+# def titlecase(x):
+#     res = ""
+#     cap = True
+#     for i in x:
+#         if cap and "a"<=i<="z":
+#             res += chr(ord(i)-32)
+#         else:
+#             res += i
+#         cap = (i==' ')
+#     print(res)
+
+# titlecase("hello goutham all")
+
+
+
+
+# Convert String to Number -7
+# def to_num(x):
+#     res = 0
+#     for i in x:
+#         digit = ord(i)- ord("0")
+#         res = res*10+digit
+#     print(res)
+
+# to_num("123")
+
+
+
+
+
+
+
+# Count Occurrences of a Character -8  
+# def char_count(x,z):
+#     count = 0 
+#     for i in x:
+#         if i == z:
+#             count += 1
+#     return count
+
+# print(char_count("hello world","l"))

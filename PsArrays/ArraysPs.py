@@ -120,10 +120,8 @@
 # def find_unique_elements(arr):
 #     unique_elements = []  
 #     for i in arr:
-#         # print("i",i)
 #         count = 0
 #         for j in arr:
-#             # print(j)
 #             if i == j:
 #                 count += 1
 #         if count == 1:
