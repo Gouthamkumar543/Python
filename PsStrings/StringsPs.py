@@ -15,12 +15,12 @@
 
 # def pallinedrome(x):
 #     p_string = x[::-1]
-#     print(p_string)
+#     # print(p_string)
 #     if x == p_string:
 #         return print(True)
 #     return print(False)
 
-# string="goutham"
+# string="racecar"
 # pallinedrome(string)
 
 
@@ -35,7 +35,7 @@
 #             count += 1
 #     return print(count)
 
-# string = "hellohiiii"
+# string = "hello"
 # Vowles_count(string)
 
 
@@ -54,5 +54,19 @@
 
 # srting = "goutham"
 # Removing_vowles(srting)
+
+
+
+# Check if it contains only digits
+
+def Check_Only_Digits(x):
+    Digits = "1234567890"
+    for i in x:
+        if i not in Digits:
+            return print(False)
+    return print(True)
+
+string = "0036057607608576057068375"
+Check_Only_Digits(string)
     
         
