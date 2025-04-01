@@ -1,3 +1,4 @@
+# easy lvl
 # reverse the string -1
 
 # def Reverse_Srting(x):
@@ -129,3 +130,74 @@
 #     return count
 
 # print(char_count("hello world","l"))
+
+
+
+
+# medium lvl
+
+# Routate the arr based on steo count -1
+
+# def rotate_array(arr, k):
+#     k = k % len(arr)
+#     result = [0] * len(arr)
+#     for i in range(len(arr)):
+#         result[(i + k) % len(arr)] = arr[i]
+#     return result
+
+# arr = [1,2,3,4,5]
+# k = 3
+# print(rotate_array(arr, k))
+
+
+
+
+# insection of 2 arrays -2
+# def intersection(x,z):
+#     res = []
+#     for i in x:
+#         for j in z:
+#             if i == j and i not in res:
+#                 res += [i]
+#     return res
+
+# arr1 = [1, 2, 3]
+# arr2 = [2, 3, 4]
+# print(intersection(arr1, arr2))
+
+
+
+
+
+# find the missing number -3 
+# def Missing(x):
+#     total = (len(x)+1)*(len(x)+2)//2
+#     sum = 0
+#     for i in x:
+#         sum += i
+#     return total - sum
+
+# arr = [1,2,3,4,5,7,8,9]
+# print(Missing(arr))
+
+
+
+
+
+# find the max products of 2 numbers -4
+# def Max(x):
+#     max1=x[0]
+#     max2=x[1]
+#     if max1 < max2:
+#         max1,max2 = max2,max1
+
+#     for i in x[2:]:
+#         if i > max1:
+#             max2 = max1
+#             max1 = i
+#         elif i > max2:
+#             max2 = i
+#     return max1 * max2
+
+# arr = [1,12,3,4,5,7,8,9]
+# print(Max(arr))
