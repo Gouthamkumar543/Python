@@ -25,6 +25,20 @@
 # pallinedrome(string)
 
 
+# def goutham(x):
+#     new = ""
+#     for i in range(len(x)-1,-1,-1):
+#         new += x[i]
+        
+#     if x == new:
+#         return True
+#     return False
+    
+    
+# arr = "racecar"
+# print(goutham(arr))
+
+
 
 # Check vowles and update the count -3
 
@@ -154,28 +168,28 @@
     
 #     if len(word) > len(longest):
 #         longest = word
-        
+
 #     return longest
 
-# s = "The quick brown fox jumps over the lazy dogssss "
+# s = "The quick brown fox jumps over the lazy dogssssss "
 # print(find_longest_word(s))
 
 
 
 
 # find the first non repeating letter -3
-def Non_duplicate(x):
-    for i in range(len(x)):
-        print("i values",i)
-        unique = True
-        for j in range(len(x)):
-            print(j)
-            if i != j and x[i] == x[j]:
-                unique = False
-                break
-        if unique:
-            return x[i]
-    return None 
+# def Non_duplicate(x):
+#     for i in range(len(x)):
+#         # print("i values",i)
+#         unique = True
+#         for j in range(len(x)):
+#             # print(j)
+#             if i != j and x[i] == x[j]:
+#                 unique = False
+#                 break
+#         if unique:
+#             return x[i]
+#     return None 
 
-s = "swwiss"
-print(Non_duplicate(s)) 
+# s = "swwiss"
+# print(Non_duplicate(s)) 

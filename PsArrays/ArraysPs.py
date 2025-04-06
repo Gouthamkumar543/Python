@@ -17,6 +17,30 @@
 
 
 
+# find the second largest number -2
+
+# def goutham(x):
+#     max1 = x[0]
+#     max2 = x[1]
+    
+#     if max2 > max1:
+#         max1,max2 = max2,max1
+        
+#     for i in range(2,len(x)):
+#         print(i)
+#         if x[i] > max1:
+#             max2 = max1
+#             max1 = x[i]
+#         elif x[i] > max2:
+#             max2 = x[i]
+#     return max2
+    
+# arr =  [3, 1, 4, 1, 5, 9]
+# print(goutham(arr))
+
+
+
+
 # #Sum of all Numbers -3
 
 # def Sum_of_numbers(x):
@@ -231,7 +255,7 @@
 #             index +=1
 #     return new_arr
 
-# arr = [0,1,0,2,3]
+# arr = [28,10,450,1,0,2,3,4,5]
 # print(Zero_to_end(arr))
 
 
@@ -243,8 +267,6 @@
 #             if arr[i] + arr [j] == target:
 #                 pairs += [[arr[i], arr[j]]]
 #     return pairs
-
-
 
 # arr = [2, 4, 3, 5, 7, 8, 9]
 # target = 7
@@ -260,7 +282,7 @@
 #         return arr[0]
 #     if arr[0] >= arr[1]:
 #         return arr[0]
-#     if arr[n - 1] >= arr[n - 2]:
+#     if arr[n-1] >= arr[n-2]:
 #         return arr[n - 1]
     
 #     for i in range(1, n - 1):
@@ -269,7 +291,7 @@
     
 #     return None
 
-# arr = [1, 2,3,1,10,2,1] 
+# arr = [1,2,1,]
 # print(find_peak(arr))
  
 
@@ -280,10 +302,13 @@
 #         for j in range(i+1,len(x)):
 #             if x[i] == x[j]:
 #                 return x[i]
-#     return -1
+#     return None
 
-# arr = [2, 1, 3, 5, 3]
+# arr = [2, 1,2,3, 3, 5,5]
 # print(Duplicate(arr))
+
+
+
 
 
 # Flatten a Nested Array -9
